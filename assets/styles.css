@@ -76,7 +76,7 @@ nav a:hover {
 
 .ovtr {
     /*background-color: var(--black);*/
-	background-image: url('backgroundimage.jpg');
+	background-image: url('bkd.png');
 	
 	background-size:cover;
 	background-position:center;
@@ -331,3 +331,19 @@ footer {
 
 
 /* Credit is given to prismic.io for the exploding text animation */
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Adjust space between logo and text */
+}
+
+.branding h2 {
+    margin: 0; /* Remove any default margin */
+    font-size: 1.5rem; /* Optional: adjust font size */
+}
