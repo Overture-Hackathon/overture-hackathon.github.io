@@ -339,11 +339,12 @@ footer {
 
 .branding {
     display: flex;
-    align-items: center;
-    gap: 0.5rem; /* Adjust space between logo and text */
+    align-items: center; 
+    gap: 0.5rem; 
 }
 
 .branding h2 {
-    margin: 0; /* Remove any default margin */
-    font-size: 1.5rem; /* Optional: adjust font size */
+    margin: 0;
+    font-size: 1.5rem;
+    white-space: nowrap; 
 }
