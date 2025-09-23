@@ -18,6 +18,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  overflow-x: hidden;
     background-color:#0ad5ec;
     color: #061334;
     line-height: 1.6;
@@ -348,3 +349,10 @@ footer {
     font-size: 1.5rem;
     white-space: nowrap; 
 }
+
+@media (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
